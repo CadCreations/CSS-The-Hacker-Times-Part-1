@@ -1,1 +1,92 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dosis&Roboto+Serif&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+ 
+body {
+  font-family:"Source Sans Pro";
+  background-color: #eee;
+ 
+  }
+
+.newspaper-container { /* div element that contains everything in <a>  */
+  border-top:1px solid #eee;
+  border: 1px solid black;
+  padding:10px;
+  margin:auto;
+  border-radius:15px;
+  background-color:white;
+  box-shadow: 2px 2px black;
+  max-width=700px;
+  }
+
+nav { /* container for the unordered list */
+  border-top:1px solid #eee;
+  border-bottom:1px solid #eee;
+  padding-left:1px;
+  text-align: center;
+   }
+
+a {/* targets text inside the list item anchors <a>  */
+  color:#777;
+  font-family: 'Roboto Serif', sans-serif;
+  font-size: 11px;
+  font-alignment:center;
+  padding:5px;
+  }
+
+.center { /* class assigned to the large image file to center it */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+.topArticle {
+  border-bottom:1px solid #eee;
+  padding-bottom:1em;
+}
+
+nav li { /* puts the list items inline  */
+  display:inline;
+  font-family: "Roboto Serrif";
+  text-align:center;
+  }
+
+h1 {
+  font-family:"Abril Fatface";
+  text-align:center;
+  font-size: 3em;
+  }
+
+h2 {
+  color:black;
+  font-family: "Roboto Slab";
+  }
+
+h4 {
+  font-family: "Roboto Slab";
+  }
+
+h5 {
+ color : red;
+  }
+
+section { /* the section contains lower title, image & text*/
+  width:45%;
+  display:inline-block;
+  margin:5px;
+  text-align:center;
+  }
+  
+.date {/* targets date  */
+  font-family:'Roboto Serif', sans-serif;
+  font-size: 12px;
+  color:#777;
+  }
+
+p { /* sets the lower article text type and aligns to center */
+  font-family:"Dosis";
+  text-align:left;
+  }
+
+
+
+
